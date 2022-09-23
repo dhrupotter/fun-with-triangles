@@ -5,15 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Area</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    Area
-    <div>
-      <input class="base" type="number" />
-      <input class="height" type="number" />
-      <button class="compute-btn" id="compute-area">Calculate Area</button>
-      <div class="output" id="output-area"></div>
+    <div class="main-wrapper">
+      <div>
+        <nav class="navigation">
+          Let's Calculate Area!
+          <div class="back-btn">
+            <!-- <a href="/index.html" class="link">Back To Home</a> -->
+          </div>
+        </nav>
+
+        <section class="section">
+          <div class="container-center">
+            The area of a triangle is defined as the total region that is
+            enclosed by the three sides of any particular triangle. Basically,
+            it is equal to half of the base times height, i.e. A = 1/2 × b × h.
+          </div>
+        </section>
+
+        <div class="container-center">
+          <div class="container-center">
+            <label class="label">Base</label>
+            <input class="area-input" id="base" type="number" />
+          </div>
+
+          <div class="container-center">
+            <label class="label">Height</label>
+            <input class="area-input" id="height" type="number" />
+          </div>
+
+          <button class="compute-btn link-secondary" id="compute-area">
+            Calculate Area
+          </button>
+          <div class="output" id="output-area"></div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-header">Contact Me 👻</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+            <a class="link" href="/">Twitter</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="/">Github</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="/">LinkedIn</a>
+          </li>
+        </ul>
+      </footer>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>

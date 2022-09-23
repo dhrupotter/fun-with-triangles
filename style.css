@@ -157,7 +157,7 @@ body {
   color: var(--primary-color);
 }
 
-.angle-1 {
+.angle-input {
   display: inline;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
@@ -167,17 +167,7 @@ body {
   text-align: center;
 }
 
-.angle-2 {
-  display: inline;
-  border: 1px solid var(--primary-color);
-  border-radius: 5px;
-  height: 20px;
-  margin: 15px;
-  padding: 5px;
-  text-align: center;
-}
-
-.angle-3 {
+.area-input {
   display: inline;
   border: 1px solid var(--primary-color);
   border-radius: 5px;

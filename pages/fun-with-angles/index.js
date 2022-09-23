@@ -1,6 +1,6 @@
-var angle1 = document.querySelector(".angle-1");
-var angle2 = document.querySelector(".angle-2");
-var angle3 = document.querySelector(".angle-3");
+var angle1 = document.querySelector("#angle-1");
+var angle2 = document.querySelector("#angle-2");
+var angle3 = document.querySelector("#angle-3");
 var computeAngleBtn = document.querySelector("#compute-angle");
 var output = document.querySelector("#output-angle");
 

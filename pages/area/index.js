@@ -1,5 +1,5 @@
-var base = document.querySelector(".base");
-var height = document.querySelector(".height");
+var base = document.querySelector("#base");
+var height = document.querySelector("#height");
 var computeBtn = document.querySelector("#compute-area");
 var output = document.querySelector("#output-area");
 
