@@ -9,8 +9,14 @@ function clickHandler() {
   console.log(base.value, height.value);
 
   var result = area(base.value, height.value);
-  if (result === -1) {
-    output.innerHTML = `Please enter correct details`;
+  if (
+    base.value <= 0 ||
+    base.value === "" ||
+    height.value <= 0 ||
+    height.value === ""
+  ) {
+    // console.log("Please enter valid length value");
+    output.innerHTML = `Please enter valid values`;
   } else {
     output.innerHTML = `The area of triangle with base ${base.value} and height ${height.value} is ${result}`;
   }

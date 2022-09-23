@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 
 :root {
-  --primary-color: #d1512d;
-  --secondary-color: #f5c7a9;
+  --primary-color: #1687a7;
+  --secondary-color: #ddf5f7;
   --dark-grey: #383838;
-  --off-white: #f7ecde;
+  --off-white: #e3e3e3;
   --white: white;
 }
 
@@ -31,7 +31,15 @@ body {
   color: var(--primary-color);
   text-align: center;
   margin: auto;
-  padding: 2rem;
+  padding: 1rem;
+  font-family: "Merienda", cursive;
+}
+
+.heading-2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin: auto;
+  padding: 3rem;
   font-family: "Merienda", cursive;
 }
 
@@ -144,12 +152,17 @@ body {
   color: var(--dark-grey);
   width: 70%;
   margin: auto;
-  /* margin-top: 3rem; */
   border-radius: 8px;
   font-size: 22px;
   padding: 2rem;
-  /* text-align: center; */
-  /* border: 2px solid black; */
+}
+
+.section-2 {
+  color: var(--dark-grey);
+  margin: auto;
+  border-radius: 8px;
+  font-size: 22px;
+  padding: 4rem;
 }
 
 .label {
@@ -168,6 +181,16 @@ body {
 }
 
 .area-input {
+  display: inline;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  height: 20px;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.hypotenuse-input {
   display: inline;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
