@@ -5,16 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun with Angles</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    Fun with Angles
-    <div>
-      <input class="angle-1" type="number" />
-      <input class="angle-2" type="number" />
-      <input class="angle-3" type="number" />
-      <button class="compute-btn" id="compute-angle">Is it a Triangle</button>
-      <div class="output" id="output-angle"></div>
+    <div class="main-wrapper">
+      <div>
+        <nav class="navigation">
+          Fun with Angles
+          <a href="/index.html" class="back-btn link">Back To Home</a>
+        </nav>
+
+        <section class="section">
+          <div class="container-center">
+            Acute Triangle: This is a triangle in which each of the angles is
+            acute and measure is less than 90°. Right Angled Triangle: It is a
+            form of a triangle wherein one particular angle is a right angle.
+            Obtuse Triangle: Triangle in which one of the angles stays obtuse is
+            called an obtuse triangle.
+          </div>
+        </section>
+
+        <div class="container-center">
+          <div class="container-center">
+            <label class="label">Angle 1:</label>
+            <input
+              class="angle-1"
+              type="number"
+              placeholder="Enter first angle"
+            />
+          </div>
+
+          <div class="container-center">
+            <label class="label">Angle 1:</label>
+            <input
+              class="angle-2"
+              type="number"
+              placeholder="Enter second angle"
+            />
+          </div>
+
+          <div class="container-center">
+            <label class="label">Angle 1:</label>
+            <input
+              class="angle-3"
+              type="number"
+              placeholder="Enter third angle"
+            />
+          </div>
+
+          <button class="compute-btn link-secondary" id="compute-angle">
+            Is it a Triangle
+          </button>
+
+          <div class="output" id="output-angle"></div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-header">Contact Me 👻</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline"><a class="link" href="/">Twitter</a></li>
+          <li class="list-item-inline"><a class="link" href="/">Github</a></li>
+          <li class="list-item-inline">
+            <a class="link" href="/">LinkedIn</a>
+          </li>
+        </ul>
+      </footer>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>

@@ -9,7 +9,7 @@ computeAngleBtn.addEventListener("click", clickHandler);
 
 function clickHandler() {
   // processing
-  const result = isTriangle(angle1.value, angle2.valueb, angle3.value);
+  var result = isTriangle(+angle1.value, +angle2.value, +angle3.value);
   console.log(result);
   // output
   if (result === true) {
@@ -23,6 +23,7 @@ function isTriangle(a, b, c) {
   if (a + b + c === 180) {
     return true;
   } else {
+    console.log(a + b + c);
     return false;
   }
 }
