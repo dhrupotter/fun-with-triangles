@@ -5,47 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    Quiz
-    <form class="quiz-form">
-        <div class="question-container">
-            <p class="question">1.What is third angle for the triangle if angle1 = 45° angle2 = 45°</p>
-            <label class="label"><input type="radio" name="1" value="45°"/>45°</label>
-            <label class="label"><input type="radio" name="1" value="90°"/>90°</label>
-            <label class="label"><input type="radio" name="1" value="0°"/>0°</label>
-        </div>
+    <div class="main-wrapper">
+      <div>
+        <nav class="navigation">Fun Quiz</nav>
+        <h1 class="heading-2">How well do you know triangles?</h1>
+        <div class="container-center">
+          <form class="quiz-form">
+            <div class="question-container">
+              <p class="question">
+                1.What is third angle for the triangle if angle1 = 45° angle2 =
+                45°
+              </p>
+              <label class="label"
+                ><input type="radio" name="1" value="45°" />45°</label
+              >
+              <label class="label"
+                ><input type="radio" name="1" value="90°" />90°</label
+              >
+              <label class="label"
+                ><input type="radio" name="1" value="0°" />0°</label
+              >
+            </div>
 
-        <div class="question-container">
-            <p class="question"> 2.What do you call a  triangle with 90° </p>
-            <label class="label"><input type="radio" name="2" value="obtuse"/>obtuse</label>
-            <label class="label"><input type="radio" name="2" value="acute"/>acute</label>
-            <label class="label"><input type="radio" name="2" value="right angled"/>right angled</label>
-        </div>
-        <div class="question-container">
-            <p class="question">3.If a triangle has angles 135°, 15°, 30°. Is it an obtuse triangle? </p>
-            <label class="label"><input type="radio" name="3" value="yes"/>yes</label>
-            <label class="label"><input type="radio" name="3" value="no"/>no</label>
-        </div>
+            <div class="question-container">
+              <p class="question">2.What do you call a triangle with 90°</p>
+              <label class="label"
+                ><input type="radio" name="2" value="obtuse" />obtuse</label
+              >
+              <label class="label"
+                ><input type="radio" name="2" value="acute" />acute</label
+              >
+              <label class="label"
+                ><input type="radio" name="2" value="right angled" />right
+                angled</label
+              >
+            </div>
+            <div class="question-container">
+              <p class="question">
+                3.If a triangle has angles 135°, 15°, 30°. Is it an obtuse
+                triangle?
+              </p>
+              <label class="label"
+                ><input type="radio" name="3" value="yes" />yes</label
+              >
+              <label class="label"
+                ><input type="radio" name="3" value="no" />no</label
+              >
+            </div>
 
-        <div class="question-container">
-            <p class="question"> 4.A triangle has angles 60°, 60°, 60°. Is it an equilateral triangle? </p>
-            <label class="label"><input type="radio" name="4" value="yes"/>yes</label>
-            <label class="label"><input type="radio" name="4" value="no"/>no</label>
-        </div>
-        <div class="question-container">
-            <p class="question"> 5. The perimeter of an equilateral triangle is 15cm. What is the length of one side? </p>
-            <label class="label"><input type="radio" name="5" value="15cm"/>15cm</label>
-            <label class="label"><input type="radio" name="5" value="45cm"/>45cm</label>
-            <label class="label"><input type="radio" name="5" value="5cm"/>5cm</label>
-        </div>
+            <div class="question-container">
+              <p class="question">
+                4.A triangle has angles 60°, 60°, 60°. Is it an equilateral
+                triangle?
+              </p>
+              <label class="label"
+                ><input type="radio" name="4" value="yes" />yes</label
+              >
+              <label class="label"
+                ><input type="radio" name="4" value="no" />no</label
+              >
+            </div>
+            <div class="question-container">
+              <p class="question">
+                5. The perimeter of an equilateral triangle is 15cm. What is the
+                length of one side?
+              </p>
+              <label class="label"
+                ><input type="radio" name="5" value="15cm" />15cm</label
+              >
+              <label class="label"
+                ><input type="radio" name="5" value="45cm" />45cm</label
+              >
+              <label class="label"
+                ><input type="radio" name="5" value="5cm" />5cm</label
+              >
+            </div>
+          </form>
+          <div>
+            <button class="compute-btn link-secondary" id="submit">
+              Submit Answers
+            </button>
 
-        
-    </form>
-    <div class="btn">
+            <div id="output" class="output"></div>
+          </div>
 
-    <button class="button" id="submit">Submit Answers</button>
-     <div id="output" class="output"  ></div>
+          <footer class="footer">
+            <div class="footer-header">Contact Me 👻</div>
+            <ul class="social-links list-non-bullet">
+              <li class="list-item-inline">
+                <a class="link" href="/">Twitter</a>
+              </li>
+              <li class="list-item-inline">
+                <a class="link" href="/">Github</a>
+              </li>
+              <li class="list-item-inline">
+                <a class="link" href="/">LinkedIn</a>
+              </li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </div>
 
     <script src="index.js"></script>
   </body>
